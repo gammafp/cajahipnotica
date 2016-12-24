@@ -1,0 +1,24 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	/*background-color: black;*/
+}
+#padre {
+	width: 1px;
+	min-height: 1px;
+	margin-top: 50px;
+	margin-left: 50px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.hijo {
+	display: flex;
+}
+.hijo > span {
+	width: 4px;
+	height: 4px;
+	display: inline-block;
+	/*outline: 1px solid blue;*/
+}
